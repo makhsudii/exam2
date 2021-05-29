@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.header .header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links ul{
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.header{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header-links .header-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    padding: 0 16px;
+}
+
+.header-links .header-phone{
+    display: block;
+    padding: 8px 16px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #00BAFC;
+    border-radius: 5px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 97px 0;
+}
+
+.ection .section-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.section .section-title{
+    font-style: normal;
+    padding: 16px 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.primary-btn{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #00BAFC;
+    border-radius: 5px;
+    display: block;
+    padding: 8px 16px;
+    border: none;
+}
+
+.services{
+    padding: 56px 0 112px 0;   
+}
+
+.serv-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 16px;
+}
+
+.serv-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 24px;
+}
+
+.serv-direc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.serv-direc .item{
+    width: 320px;
+    height: 260px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img{
+    width: 178px;
+    height: 130px;
+    object-fit: contain;
+    padding-top: 24px;
+    padding-bottom: 15px;
+}
+
+.serv-direc .item .item-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+    padding-bottom: 16px;
+}
+
+
+.serv-direc .item .item-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.send-serv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-serv .href{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #00BAFC;
+    padding-left: 16px;
+}
+
+.we-works .work-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+}
+
+.we-works .work-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding: 16px 0 24px 0;
+}
+
+.we-works .container{
+    display: flex;
+    justify-content: center;
+}
+
+.works-direc .item{
+    display: flex;
+    align-items: center;
+}
+
+.works-direc .item img{
+    width: 300px;
+    height: 278px;
+    object-fit: contain;
+}
+
+.works-direc .item .p-left{
+    padding-right: 35px;
+}
+
+.works-direc .item h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+    padding-bottom: 8px;
+}
+
+.works-direc .item p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+#center{
+   display: block;
+   margin: 0 auto;
+}
+
+.form-place{
+    margin-top: 55px;
+    padding: 56px 0 64px 0;
+    background-color: #00BAFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form-place h2{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.form-place p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+form{
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+input{
+    display: block;
+    padding: 16px 0 16px 16px;
+    width: 300px;
+    margin-bottom: 16px;
+    border: none;
+    outline: none;
+    background: #F3F3F3;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+select{
+    display: block;
+    padding: 16px 16px 16px 16px;
+    width: 315px;
+    margin-bottom: 16px;
+    border: none;
+    outline: none;
+    background: #F3F3F3;
+    border-radius: 5px;
+}
+
+select::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+
+.footer{
+    background-color: #000;
+    padding: 56px 0 ;
+}
+
+.footer-inner{
+    display: flex;
+}
+
+.block{
+    margin-right: 100px;
+}
+
+
+.block h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.block p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.block a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+#icon{
+    padding-right: 8px;
+}
+
+
